@@ -5,10 +5,10 @@ local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.
 local Window = Fluent:CreateWindow({
 --test script 
     Title = "NguyenNoName Hub",
-    SubTitle = "Version 2 |By NguyenTran (NguyenNoName github.com)",
+    SubTitle = "Version 2 |By NguyenTran ",
     TabWidth = 160,
     Size = UDim2.fromOffset(530, 350),
-    Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
+    Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
     Theme = "Darker",
     MinimizeKey = Enum.KeyCode.End -- Used when theres no MinimizeKeybind
 })
